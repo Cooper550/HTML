@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 :root{
-  --accent:#0ea5e9; --bg:#f8fafc; --text:#0f172a;
+  --accent:#40798c; --bg: #cfe0c3; --text:#15064b;
   --muted:#475569; --radius:14px; --space:14px; --border:#e2e8f0;
 }
 html,body{margin:0;}
@@ -31,11 +31,12 @@ li{
 .meta{ color:var(--muted); font-size:12px; }
 footer{ margin-top:12px; color:var(--muted); font-size:12px; text-align:center; }
 .toolbar{ margin:8px 0; }
-.remove{ background:#ef4444; }
+.remove{ background:#40798c; }
 .grid2{ display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:12px; }
 
 /* Dashboard */
 .dashboard .stats{ display:grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap:12px; }
 .stat{ background:#f1f5f9; border:1px solid var(--border); border-radius:12px; padding:10px; text-align:center; }
-.stat .num{ font-size:24px; font-weight:700; color:#0ea5e9; }
+.stat .num{ font-size:24px; font-weight:700; color:#1f363d; }
 .stat .label{ font-size:12px; color:var(--muted); }
+
